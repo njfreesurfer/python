@@ -1,4 +1,20 @@
-#!/Users/tony/bin/anaconda/bin/python
+'''
+This python script extracts gradient information from the raw DICOM. Works pretty well with Simens DICOM files. It outputs two files
+if runs successfully: bvals and bvecs. In most occasions(I haven't tested for all scanner types), the bvecs is the same as if it is
+created from dcm2nii tool by Chris Roden as part of the installation of mricron software.
+link: http://www.mccauslandcenter.sc.edu/mricro/mricron/dcm2nii.html
+packages required:
+    dicom
+    glob
+    getopt
+    numpy
+    struct
+    sys
+    os
+It should work for python >=2.6 although not fully tested. You are welcome to report any problem to the author. 
+Feel free to distribute and adapt but please leave this section unchanged.
+
+'''
 import dicom
 import glob
 import getopt
