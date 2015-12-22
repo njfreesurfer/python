@@ -30,7 +30,7 @@ def print_help():
     print '     -o: where the bvals/bvecs files will be saved'
     print '     -e: file extension. this can be served as a filter. if no extension, '
     print '         then do not specify this parameter'
-    print 'Author: Zhiguo Jiang@Kesslerfoundation.org'
+    print 'Author: Tony Jiang Email: TJiang@Kesslerfoundation.org'
     print '2014-4102 All Rights Reversed!'
     print '******************************************************************************'
 
